@@ -9,6 +9,7 @@
     <meta name="keywords" content="coffeevan, coffee, events, weddings, rental, food truck, Ireland">
     <meta name="author" content="Seedlings Coffee Van">
     <!-- Stylesheet -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" href="index.css">
     <!-- Icon -->
     <link rel="icon" href="#">
@@ -17,7 +18,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <!-- Navigational bars -->
         <nav>
             <!-- Logo superior left corner of the page -->
@@ -26,44 +27,95 @@
             </h1>
             <ul>
                 <li>
-                    <a href="#contact">Contact Us</a>
+                    <a class="active" href="index.htm">Home</a>
                 </li>
                 <li>
-                    <a href="events.html">Events Gallery</a>
+                    <a href="#menu">Menu</a>
                 </li>
                 <li>
-                    <a href="#menu">Our Menu</a>
+                    <a href="events.html">Events</a>
                 </li>
                 <li>
-                    <a class="active" href="index.html">Home</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
     <hr>
     <!-- (Call to action) Sticky button that floats with the page -->
-    <div id="clickme">
-        <a href="mailto:seedlingscoffeevan@gmail.com">
-            <img src="#" alt="Coffee Van cartoon">
+    <button id="clickme">
+        <a href="mailto:seedlingscoffeevan@gmail.com" target="_blank">
+            <i class="fas fa-truck"></i>
             <p>Take me with you!</p>
         </a>
-    </div>
+    </button>
     <!-- Main section of content! -->
     <main>
         <section>
-            <h1>Top</h1>
+            <h2>The History of Coffee</h2>
+            <p>"Coffee - the favorite drink of the civilized world." - Thomas Jefferson</p>
+            <h3>No one knows exactly how or when coffee was discovered, though there are many legends about its origin.
+            </h3>
+            <h2>An Ethiopian Legend</h2>
+            <h3>Coffee grown worldwide can trace its heritage back centuries to the ancient coffee forests on the
+                Ethiopian plateau. There, legend says the goat herder Kaldi first discovered the potential of these
+                beloved beans.
+                The story goes that that Kaldi discovered coffee after he noticed that after eating the berries from a
+                certain tree, his goats became so energetic that they did not want to sleep at night.
+                Kaldi reported his findings to the abbot of the local monastery, who made a drink with the berries and
+                found that it kept him alert through the long hours of evening prayer. The abbot shared his discovery
+                with the other monks at the monastery, and knowledge of the energizing berries began to spread.
+                As word moved east and coffee reached the Arabian peninsula, it began a journey which would bring these
+                beans across the globe.</h3>
         </section>
         <section>
-            <h1>Mid</h1>
+            <h2>Drinks Menu</h2>
+            <div>
+                <h3>Coffee</h3>
+                <ul>
+                    <li>Latte</li>
+                    <li>Americano</li>
+                    <li>Cappuccino</li>
+                    <li>Espresso</li>
+                    <li>Macchiato</li>
+                    <li>Flat White</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Tea</h3>
+                <ul>
+                    <li>Hibiscus tea</li>
+                    <li>Green tea</li>
+                    <li>Black tea</li>
+                    <li>Peppermint tea</li>
+                </ul>
+            </div>
+
+            <div>
+                <h3>Cold drinks</h3>
+                <ul>
+                    <li>Iced coffee</li>
+                    <li>Ice Tea</li>
+                    <li>Soft drinks</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section>
+            <h2>Mid</h2>
         </section>
         <section>
             <h2>Contact US</h2>
             <header>
                 <form action="">
-                    <label for="name">Name</label>
+                    <label for="name-input">Name:</label>
                     <input type="text" name="" id="name-input">
-                    <label for="email">Email</label>
+                    <label for="email-input">Email:</label>
                     <input type="email" name="email" id="email-input">
+                    <label for="message-input">Message:</label>
+                    <textarea name="message" id="message-input" cols="30" rows="10"></textarea>
                 </form>
             </header>
         </section>
@@ -82,7 +134,7 @@
                         class="fab fa-twitter"></i></li>
         </ul>
         <!-- Copyrights! -->
-        <h3>© 2021 SeedlingsCoffeeVan Ltd.</h3>
+        <h3 id="copyrights">© 2021 SeedlingsCoffeeVan Ltd.</h3>
     </footer>
 
     <!-- font awesome script -->
