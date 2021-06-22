@@ -9,6 +9,7 @@
     <meta name="keywords" content="coffeevan, coffee, events, weddings, rental, food truck, Ireland">
     <meta name="author" content="Seedlings Coffee Van">
     <!-- Stylesheet -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" href="index.css">
     <!-- Icon -->
     <link rel="icon" href="#">
@@ -17,38 +18,53 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <!-- Navigational bars -->
         <nav>
             <!-- Logo superior left corner of the page -->
             <h1 id="logo">
-                <i class="fas fa-seedling"> Seedlings Coffee Van</i>
+                <i class="fas fa-seedling"> </i>
+                Seedlings Coffee Van
             </h1>
             <ul>
                 <li>
-                    <a href="#contact">Contact Us</a>
-                </li>
-                <li>
-                    <a href="events.html">Events Gallery</a>
-                </li>
-                <li>
-                    <a href="#menu">Our Menu</a>
-                </li>
-                <li>
                     <a class="active" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>
     </header>
     <hr>
-    <section>
-        <h1>Events Gallery</h1>
-        <p><img src="" alt=""></p>
-        <p><img src="" alt=""></p>
-        <p><img src="" alt=""></p>
-        <p><img src="" alt=""></p>
-        <p><img src="" alt=""></p>
-    </section>
+    <!-- (Call to action) Sticky button that floats with the page -->
+    <button id="clickme">
+        <a href="mailto:seedlingscoffeevan@gmail.com" target="_blank">
+            <i class="fas fa-truck"></i>
+            <p>Take me with you!</p>
+        </a>
+    </button>
+
+    <!-- Main section of content! -->
+
+    <main>
+        <hr>
+        <section>
+            <h1>Events Gallery</h1>
+            <p><img src="" alt=""></p>
+            <p><img src="" alt=""></p>
+            <p><img src="" alt=""></p>
+            <p><img src="" alt=""></p>
+            <p><img src="" alt=""></p>
+        </section>
+    </main>
+
     <!-- Footer  -->
     <footer id="footer">
         <!-- Social Media -->
@@ -62,7 +78,7 @@
                         class="fab fa-twitter"></i></li>
         </ul>
         <!-- Copyrights! -->
-        <h3>© 2021 SeedlingsCoffeeVan Ltd.</h3>
+        <h3 id="copyrights">© 2021 SeedlingsCoffeeVan Ltd.</h3>
     </footer>
 
     <!-- font awesome script -->
