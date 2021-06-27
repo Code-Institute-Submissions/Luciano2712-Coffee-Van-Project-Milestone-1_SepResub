@@ -21,17 +21,17 @@ a {
 
 h1 {
     font-size: 2.8rem;
-    padding: 5rem 0rem;
+    padding: 2rem 0rem;
 }
 
 h2 {
     font-size: 3.5rem;
-    padding: 5rem 0rem;
+    padding: 2rem 0rem;
 }
 
 h3 {
     font-size: 2.8rem;
-    padding: 5rem 0rem;
+    padding: 2rem 0rem;
 }
 
 p {
@@ -105,52 +105,99 @@ nav>h1>i {
 
 #mainsection {
     text-align: center;
-    padding: auto;
-    background-color:#e0d7d1;
+    background-color: #e0d7d1;
     color: #6f4e37;
-    padding: 5rem;
-    
+    padding: 2rem;
+
 }
+
 #mainsection hr {
-    border: 1rem solid black;
+    border: 0.2rem solid black;
 }
 
 #mainsection section {
     border: 0.2rem solid #6f4e37;
 }
+
+/* Drinks section */
+#menu {
+    clear: both;
+    padding-bottom: 1rem;
+    background-color: white;
+    background-image: url("/Images/Coffee-surrounding.jpg");
+    background-position: center;
+}
+
+#menu li {
+    font-size: 2.0rem;
+}
+
+#menu fieldset {
+    margin: 2rem;
+    padding: 1rem;
+    border: 0.5rem solid black;
+    min-width: auto;
+    width: auto;
+    height: auto;
+    background-image: url("/Images/Coffee-surrounding.jpg");
+    background-position: center;
+}
+
 /* Contact Us */
+#contact {
+    background-color: white;
+    background-image: url("/Images/Coffee-surrounding.jpg");
+    background-position: center;
+}
 
 #contact fieldset {
-    margin: 1rem;
-    padding: 0.2rem;
-    border: 1rem solid black;
-    min-width: none;
+    margin: 2rem;
+    padding: 1rem;
+    border: 0.5rem solid black;
+    min-width: auto;
+    width: auto;
+    height: auto;
+    background-image: url("/Images/Coffee-surrounding.jpg");
+    background-position: center;
 }
+
 #contact label {
     display: block;
     margin: 0.2rem;
     padding: 0.2rem;
     font-size: 2.0rem;
+    min-width: auto;
 }
-#contact input, textarea {
+
+#contact input {
     padding: 0.1rem;
-    border:0.2rem solid #6f4e37;
+    border: 0.2rem solid #6f4e37;
     width: 25rem;
+    min-width: auto;
 }
+
+#contact textarea {
+    padding: 0.1rem;
+    border: 0.2rem solid #6f4e37;
+    width: 25rem;
+    min-width: auto;
+}
+
 #submit {
     margin: 0.2rem;
-    padding: 0.1rem;
+    padding: 0.2rem;
     font-size: 2.0rem;
-    border:0.2rem solid #6f4e37;
+    border: 0.2rem solid #6f4e37;
     width: 25rem;
     font-size: 2.0rem;
     color: #6f4e37;
 }
+
 #submit:hover {
-    border: 0.2rem solid #6f4e37;
+    border: 0.25rem solid #6f4e37;
     color: #e0d7d1;
     cursor: pointer;
-    background-color:#6f4e37;
+    background-color: #6f4e37;
 }
 
 /* Footer */
@@ -220,12 +267,13 @@ footer>h2 {
     background-color: #e0d7d1;
     text-align: center;
 }
-#gallery > img {
+
+#gallery>img {
     width: 49.9%;
     height: 50rem;
 }
-#gallery > h1 {
-    font-size: 10rem;
-    color:#6f4e37;
-}
 
+#gallery>h1 {
+    font-size: 10rem;
+    color: #6f4e37;
+}
