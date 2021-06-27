@@ -51,7 +51,7 @@
         </a>
     </button>
     <!-- Main section of content! -->
-    <main>
+    <main id="mainsection">
         <section>
             <h2>The History of Coffee</h2>
             <p>"Coffee - the favorite drink of the civilized world." - Thomas Jefferson</p>
@@ -69,6 +69,7 @@
                 As word moved east and coffee reached the Arabian peninsula, it began a journey which would bring these
                 beans across the globe.</h3>
         </section>
+        <hr>
         <section>
             <h2>Drinks Menu</h2>
             <div>
@@ -101,9 +102,7 @@
                     <li>Soft drinks</li>
                 </ul>
             </div>
-        </section>
 
-        <section>
             <div>
                 <h3>Cocktails</h3>
                 <ul>
@@ -114,18 +113,21 @@
             </div>
 
         </section>
-        <section>
-            <h2>Contact US</h2>
-            <header>
-                <form action="">
+        <hr>
+        <section id="contact">
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend><h3>Contact US</h3></legend>
                     <label for="name-input">Name:</label>
                     <input type="text" name="" id="name-input">
                     <label for="email-input">Email:</label>
                     <input type="email" name="email" id="email-input">
                     <label for="message-input">Message:</label>
                     <textarea name="message" id="message-input" cols="30" rows="10"></textarea>
-                </form>
-            </header>
+                    <label for="submit"></label>
+                    <input type="submit" id="submit" value="Contact Us">
+                </fieldset>
+            </form>
         </section>
     </main>
     <hr>

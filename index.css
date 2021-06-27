@@ -35,7 +35,7 @@ h3 {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 2.0rem;
 }
 
 /* (Call to action) Sticky button that floats with the page */
@@ -45,7 +45,6 @@ p {
     position: fixed;
     padding: 1.0rem;
     border: 0.3rem solid #6f4e37;
-    border-radius: 10%;
     background-color: #e0d7d1;
     right: 0.1rem;
 }
@@ -100,6 +99,58 @@ nav li {
 
 nav>h1>i {
     font-size: 4rem;
+}
+
+/* Main content */
+
+#mainsection {
+    text-align: center;
+    padding: auto;
+    background-color:#e0d7d1;
+    color: #6f4e37;
+    padding: 5rem;
+    
+}
+#mainsection hr {
+    border: 1rem solid black;
+}
+
+#mainsection section {
+    border: 0.2rem solid #6f4e37;
+}
+/* Contact Us */
+
+#contact fieldset {
+    margin: 1rem;
+    padding: 0.2rem;
+    border: 1rem solid black;
+    min-width: none;
+}
+#contact label {
+    display: block;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    font-size: 2.0rem;
+}
+#contact input, textarea {
+    padding: 0.1rem;
+    border:0.2rem solid #6f4e37;
+    width: 25rem;
+}
+#submit {
+    margin: 0.2rem;
+    padding: 0.1rem;
+    font-size: 2.0rem;
+    border:0.2rem solid #6f4e37;
+    width: 25rem;
+    font-size: 2.0rem;
+    color: #6f4e37;
+}
+#submit:hover {
+    border: 0.2rem solid #6f4e37;
+    color: #e0d7d1;
+    cursor: pointer;
+    background-color:#6f4e37;
 }
 
 /* Footer */
@@ -177,3 +228,4 @@ footer>h2 {
     font-size: 10rem;
     color:#6f4e37;
 }
+
