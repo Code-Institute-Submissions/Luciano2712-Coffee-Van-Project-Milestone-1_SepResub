@@ -1,59 +1,100 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Luciano Molon Pfeifer,
+# Seedlings Coffee Van - <https://luciano2712.github.io/Coffee-Van-Project-Milestone-1/>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+    We are passionate about providing the best possible experience whatever your event may be and have a wealth of experience organising events within the corporate & consumer world.
+    We are constantly creating new ideas, always staying ahead of the game and we're only too happy to sit down with you and produce something out of this world!
+    You can rent us for weddings, parties, markets, festivals, corporate events, sampling, any special occasion, promotional, advertising needs, TV/media appearances, anything you can think of really!
+    Simply share your dreams with us and let us make them a reality! The sky's the limit!
 
-## Gitpod Reminders
+## UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### User Stories
 
-`python3 -m http.server`
+#### As a user, I want to
 
-A blue button should appear to click: _Make Public_,
+- Find out the basic information about the Coffee Van.
+- Get an idea on what is done through the Events Gallery.
+- Have access to the Menu.
+- Find a link to the social media sites.
+- Know more about coffee and decide why woul I want it in my event.
+- Find an easy call to action button.
 
-Another blue button should appear to click: _Open Browser_.
+#### As a site owner, I want to
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- Explain what we do at the Coffee Van, making it clear and easy to be understood of the services we offer and how to contact us.
+- Share the menu.
+- Make it easy for the user to contact us.
+- Provide links to our social media sites.
+- Provide information and curiosities.
 
-A blue button should appear to click: _Make Public_,
+### Target Audience
 
-Another blue button should appear to click: _Open Browser_.
+Men and women who are looking to take their event/ special ocasion to another level of experience using our Coffee Van. They will be aged between 30-50, earning well and looking for something special.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Strategy
 
-To log into the Heroku toolbelt CLI:
+My goal of this site is to create a simple, visually appealing website to help customers personalize their events with a nice vintage touch and with excellet services.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Structure
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+The main structure of this website involves 2 pages, the Home page(which is divided in 4 sections, What We Do, Curiosities, Menu, Contact Us) and the Events Gallery page.
 
-## Updates Since The Instructional Video
+The pages will all include the same heading and footer.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The header of each page is the same with nav bars.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+The footer of each page is the same with links to social medias.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Features Left To Implement
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- Overall, I would recommend revising the spacing and padding of the site's text. The text could be better centered and spread on larger screens to improve readability for the user.
+- Responsivenes of the header and footer also needs adjustments.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Technologies Used
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- HTML
+- CSS
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Also made use of
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+- [Font Awesome](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [HTML Validator](https://www.freeformatter.com/html-validator.html)
+- [CSS Validator](https://validator.w3.org/)
+- Testing with Chrome DevTools
+- Learned from [W3Schools](https://www.w3schools.com/)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Testing
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Manual tests were conducted throughout the creation of this site.
 
----
+### Validators
 
-Happy coding!
+- HTML
+  - HTML Validator: Document checking on [FreeFormatter.com](https://www.freeformatter.com/html-validator.html).
+
+- CSS
+  - W3C CSS Validator: The [W3C Validator](https://jigsaw.w3.org/css-validator/validator)
+
+## Deployment
+
+Deployment To GitHub Pages:
+
+- I logged into [GitHub](https://github.com/)
+- In my account on the GitHub website, I selected Repositories
+- I selected the Luciano2712/Coffee-Van-Project-Milestone-1 from the GitHub Dashboard.
+- I navigated to Settings and to the GitHub Pages section.
+- From the Source section, I clicked on the drop-down menu and selected Master Branch.
+- Once Master Branch is selected, the page has been automatically refreshed, with a detailed ribbon display GitHub Source Saved Pages indicating the successful implementation.
+
+The live link can be found here - <https://luciano2712.github.io/Coffee-Van-Project-Milestone-1/>
+
+### Media
+
+- All images were sourced from other sites.
+- The font used was taken from [Google Fonts](https://fonts.google.com/specimen/Playfair+Display)
+- The icons used for the footer were taken from [Font Awesome](https://fontawesome.com/icons?d=gallery)
+
+## Acknowledgements
+
+- To create this website, I relied heavily on the material covered in the Full Stack Development course by Code Institute. I also used W3Schools Online Web Tutorials. I learnt the course material but did have to refer to additional YouTube videos to get a better understanding.
