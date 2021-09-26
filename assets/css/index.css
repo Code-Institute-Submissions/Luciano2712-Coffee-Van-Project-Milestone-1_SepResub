@@ -50,7 +50,7 @@ p {
     padding: 2rem;
     background-color: #e0d7d1;
     color: #6f4e37;
-    background-image: url("/Images/Coffee-surrounding.jpg");
+    background-image: url("/assets/images/feed/coffee_surrounding.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -114,7 +114,7 @@ nav>h1>i {
     clear: both;
     padding-bottom: 1rem;
     background-color: white;
-    background-image: url("/Images/Coffee-surrounding.jpg");
+    background-image: url("/assets/images/feed/coffee_surrounding.jpg");
     background-position: center;
 }
 
@@ -125,7 +125,7 @@ nav>h1>i {
     min-width: auto;
     width: auto;
     height: auto;
-    background-image: url("/Images/Coffee-surrounding.jpg");
+    background-image: url("/assets/images/feed/coffee_surrounding.jpg");
     background-position: center;
 }
 
@@ -140,7 +140,7 @@ nav>h1>i {
     clear: both;
     padding-bottom: 1rem;
     background-color: white;
-    background-image: url("/Images/Coffee-surrounding.jpg");
+    background-image: url("/assets/images/feed/coffee_surrounding.jpg");
     background-position: center;
 }
 
@@ -155,14 +155,14 @@ nav>h1>i {
     min-width: auto;
     width: auto;
     height: auto;
-    background-image: url("/Images/Coffee-surrounding.jpg");
+    background-image: url("/assets/images/feed/coffee_surrounding.jpg");
     background-position: center;
 }
 
 /* Contact Us */
 #contact {
     background-color: white;
-    background-image: url("/Images/Coffee-surrounding.jpg");
+    background-image: url("/assets/images/feed/coffee_surrounding.jpg");
     background-position: center;
 }
 
@@ -173,7 +173,7 @@ nav>h1>i {
     min-width: auto;
     width: auto;
     height: auto;
-    background-image: url("/Images/Coffee-surrounding.jpg");
+    background-image: url("/assets/images/feed/coffee_surrounding.jpg");
     background-position: center;
 }
 
@@ -224,7 +224,7 @@ footer {
     border: 0;
     background-color: #e0d7d1;
     vertical-align: bottom;
-    background-image: url("/Images/Coffee-surrounding.jpg");
+    background-image: url("/assets/images/feed/coffee_surrounding.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
