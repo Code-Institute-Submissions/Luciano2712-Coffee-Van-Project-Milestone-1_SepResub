@@ -14,44 +14,44 @@ Simply share your dreams with us and let us make them a reality! The sky's the l
 
   - Featured at the top of the page, the heading is easy to see for the user. Upon viewing the page, the user will be able to see the name of the respective section he might want to navigate to and click "it" to navigate to another page or section in the same page.
 
-![Heading](assets/images/readme/header.png)
+![Heading](assets/images/readme/header_nav.jpg)
 
 - __The What We Do Area__
 
   - This section will allow the user to get information about our oal as a company and be aware of the services we have available for market.
   - The user will be able to select the product of his interest and learn how we can personalize it.
 
-![What we do](assets/images/readme/match-area.png)
+![What we do](assets/images/readme/what_we_do.jpg)
 
 - __The Curiosities section__
 
   - In the curiosity section, the user will be introduced to the legend of the first human experience with coffee and how it affected the human behavior.
 
-![Curiosities](assets/images/readme/intro.png)
+![Curiosities](assets/images/readme/curiosity.jpg)
 
 - __The Menu Area__
 
   - This section will allow the user to see exactly how many options we have in our menu.
 
-![Menu](assets/images/readme/score.png)
+![Menu](assets/images/readme/menu.jpg)
 
 - __The Contact Us Area__
 
   - This section will allow the user to get in contact with us, just by filling a simple form and submiting it.
 
-![Contact Us](assets/images/readme/score.png)
+![Contact Us](assets/images/readme/contact_us.jpg)
 
 - __The Footer Area__
 
   - This section will allow the user to click on the links and be redirected to our social media pages.
 
-![Footer](assets/images/readme/footer.png)
+![Footer](assets/images/readme/footer.jpg)
 
 - __The Events Gallery Area__
 
   - This section will allow the user to see photos of previous events and have an idea of how is the outcome of our work..
 
-![Events Gallery](assets/images/readme/rules.png)
+![Events Gallery](assets/images/readme/gallery.jpg)
 
 ### Features Left to Implement
 
