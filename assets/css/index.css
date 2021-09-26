@@ -56,24 +56,19 @@ p {
     background-position: center;
 }
 
-nav h1 {
-    float: left;
-}
-
-nav ul {
-    float: right;
+nav {
+    text-align: center;
 }
 
 nav li {
     float: left;
-    padding: 0.3rem 10rem 0.3rem 0rem;
-    margin: 0.5rem;
+    padding: 1.5rem;
+    width: 25%;
+    text-align: center;
 }
 
 #logo {
-    clear: both;
     font-size: 2.5rem;
-    padding: 1rem 1rem 1rem 10rem;
 }
 
 nav>h1>i {
@@ -235,15 +230,13 @@ footer {
 }
 
 .social_media>li {
-    clear: both;
-    display: inline;
+    display: inline-block;
+    width: 30%;
 }
 
 .social_media i {
     font-size: 30px;
     color: #6f4e37;
-    padding: 10px 30px;
-    margin: 20px 50px;
     border: 2px solid #6f4e37;
     border-radius: 50%;
     overflow: hidden;
@@ -258,7 +251,7 @@ footer>h2 {
     clear: both;
     font-size: 20px;
     color: #6f4e37;
-    padding: 0;
+    padding: 1rem;
     margin: 0;
     text-align: center;
     vertical-align: top;
@@ -268,7 +261,7 @@ footer>h2 {
     clear: both;
     font-size: 1.5rem;
     color: #6f4e37;
-    padding: 0;
+    padding: 1rem;
     margin: 0;
     text-align: center;
     vertical-align: bottom;
