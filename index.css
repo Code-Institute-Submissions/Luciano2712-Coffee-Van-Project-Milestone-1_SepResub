@@ -44,7 +44,7 @@ p {
 }
 
 /* (Call to action) Sticky button that floats with the page */
-#clickme {
+.clickme {
     clear: both;
     height: 6.0rem;
     position: fixed;
@@ -54,19 +54,15 @@ p {
     right: 0.1rem;
 }
 
-#clickme>a {
+.clickme {
     color: #6f4e37;
     font-size: 1.5rem;
 }
 
-#clickme:hover {
+.clickme:hover {
     color: #e0d7d1;
     background-color: #6f4e37;
     border: 0.3rem solid #e0d7d1;
-}
-
-#clickme>a:hover {
-    color: #e0d7d1;
 }
 
 /* Header */
