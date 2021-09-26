@@ -50,7 +50,7 @@ p {
     padding: 2rem;
     background-color: #e0d7d1;
     color: #6f4e37;
-    background-image: url("./assets/images/feed/coffee_surrounding.jpg");
+    background-image: url("/assets/images/feed/coffee_surrounding.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
