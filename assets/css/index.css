@@ -291,7 +291,3 @@ footer>h2 {
     font-size: 10rem;
     color: #6f4e37;
 }
-
-/* For medium screens sizes from 950px wide and down */
-@media screen and (max-width: 950px){
-} 
