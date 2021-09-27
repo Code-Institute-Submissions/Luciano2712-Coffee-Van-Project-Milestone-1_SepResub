@@ -4,7 +4,7 @@ We are passionate about providing the best possible experience whatever your eve
 We are constantly creating new ideas, always staying ahead of the game and we're only too happy to sit down with you and produce something out of this world!
 You can rent us for weddings, parties, markets, festivals, corporate events, sampling, any special occasion, promotional, advertising needs, TV/media appearances, anything you can think of really!
 Simply share your dreams with us and let us make them a reality! The sky's the limit!
-![Responsive Mockup](assets/images/readme/responsive-game.png)
+![Responsive Mockup](assets/images/readme/responsive_check.jpg)
 
 ## Features
 
@@ -85,7 +85,7 @@ I have also tested the website using
 - HTML Validator
 - CSS Validator
 - Tested with Chrome DevTools
-![Dev Tools](assets/images/readme/lighthouse-desktop.jpg)
+![Dev Tools](assets/images/readme/lighthouse.jpg)
 
 ### Validator Testing
 
